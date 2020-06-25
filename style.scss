@@ -45,7 +45,7 @@ $alt-3:rgb(150, 119, 178);
         align-self: flex-end !important;
 
         a {
-            font-size:22px;
+            font-size:15px;
             font-weight: bold;
             color:black;
         }
@@ -745,9 +745,6 @@ p {
 @media only screen and (min-width: 992px) {
 
 
-    p {
-        font-size:30px !important;
-    }
     .navbar-brand {
         display:flex;
         font-size:40px;
@@ -764,6 +761,10 @@ p {
         align-items:center;
         background-color:$blue;
         color:white;
+
+        h1 {
+            font-size:30px;
+        }
     }
 
     .YT-first1 {
@@ -823,7 +824,7 @@ p {
             .btn-1 {
                 border:2px solid black;
                 background-color:	#fded26;
-                font-size:50px;
+                font-size:40px;
                 font-weight: bold;
                 width:20%;
                 box-shadow: 0px 15px 10px -15px #111;  
@@ -833,7 +834,7 @@ p {
 
             padding-top:3rem;
             h1 {
-                font-size:90px;
+                font-size:70px;
             }
         }
     }
@@ -851,7 +852,7 @@ p {
             width:40% !important;
             margin:15px;
             height:300px !important;
-            margin-top:120px !important;
+          
 
         }
 
@@ -897,7 +898,7 @@ p {
             padding:10px;
         }
         p {
-            font-size:35px;
+            font-size:25px;
             color:white;
        
         }
@@ -945,7 +946,7 @@ p {
        
         .header {
             h3 {
-                font-size:70px;
+                font-size:60px;
             }
             margin-bottom:5rem;
         }
@@ -966,7 +967,7 @@ p {
             }
             .subitem {
                 p {
-                    font-size:25px;
+                    font-size:20px;
                 }
 
                 .img-fluid {
@@ -991,7 +992,7 @@ p {
             padding:20px;
            width:60% !important;
        p {
-        font-size:35px;
+        font-size:20px;
        }
         }
     
@@ -1118,6 +1119,7 @@ p {
     }
 
         .posebanDiv {
+      
         width:100%;
         display:flex;
         justify-content: center;
@@ -1132,8 +1134,10 @@ p {
             }
 
             .rnd {
-                top:27%;
-             
+                top:30%;
+             p {
+                font-size:30px;
+             }
             }
         }
     }
@@ -1160,9 +1164,9 @@ p {
             }
 
             .s2 {
-                width:70%;
+                width:60%;
                 p {
-                    font-size:25px;
+                    font-size:20px;
                     text-align: center;
                 }
             }

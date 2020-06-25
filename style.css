@@ -35,7 +35,7 @@
 }
 
 .navbar .navbar-nav a {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: bold;
   color: black;
 }
@@ -1070,9 +1070,6 @@ p {
 }
 
 @media only screen and (min-width: 992px) {
-  p {
-    font-size: 30px !important;
-  }
   .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1093,6 +1090,9 @@ p {
             align-items: center;
     background-color: #689cb4;
     color: white;
+  }
+  .dopunaD h1 {
+    font-size: 30px;
   }
   .YT-first1 {
     display: none !important;
@@ -1142,7 +1142,7 @@ p {
   .YT-first .button .btn-1 {
     border: 2px solid black;
     background-color: #fded26;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     width: 20%;
     -webkit-box-shadow: 0px 15px 10px -15px #111;
@@ -1152,7 +1152,7 @@ p {
     padding-top: 3rem;
   }
   .YT-first .header h1 {
-    font-size: 90px;
+    font-size: 70px;
   }
   .YT-cont {
     -webkit-box-orient: horizontal !important;
@@ -1170,7 +1170,6 @@ p {
     width: 40% !important;
     margin: 15px;
     height: 300px !important;
-    margin-top: 120px !important;
   }
   .YT-cont .i1 {
     margin-top: 0 !important;
@@ -1215,7 +1214,7 @@ p {
     padding: 10px;
   }
   .desktop1 p {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
   }
   .desktop1 .item10 {
@@ -1278,7 +1277,7 @@ p {
     margin-bottom: 5rem;
   }
   .whitesmoke .header h3 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .whitesmoke .desktop {
     display: -webkit-box;
@@ -1305,7 +1304,7 @@ p {
     margin-bottom: 50px;
   }
   .whitesmoke .item .subitem p {
-    font-size: 25px;
+    font-size: 20px;
   }
   .whitesmoke .item .subitem .img-fluid {
     height: 150px;
@@ -1338,7 +1337,7 @@ p {
     width: 60% !important;
   }
   .desktopB .item p {
-    font-size: 35px;
+    font-size: 20px;
   }
   .whitesmoke1 {
     display: none;
@@ -1499,7 +1498,10 @@ p {
     width: 50%;
   }
   .posebanDiv .pic .rnd {
-    top: 27%;
+    top: 30%;
+  }
+  .posebanDiv .pic .rnd p {
+    font-size: 30px;
   }
   .picturePort {
     display: none;
@@ -1541,10 +1543,10 @@ p {
     width: 30%;
   }
   .picturePortD .first .s2 {
-    width: 70%;
+    width: 60%;
   }
   .picturePortD .first .s2 p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
   .picturePortD .first .img-fluid {

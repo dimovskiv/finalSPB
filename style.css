@@ -1547,11 +1547,11 @@ p {
   }
   .picturePortD .first .s2 p {
     font-size: 20px;
-    text-align: center;
+    text-align: right;
   }
   .picturePortD .first .img-fluid {
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
   }
   .picturePortD .sec {
     display: -webkit-box;

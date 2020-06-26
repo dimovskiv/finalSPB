@@ -138,27 +138,29 @@ p {
 }
 
 .top {
- padding-top:8rem !important;
- height:40%;
 
+ height:35%;
+ 
 }
+
+
+
 
 .masthead{
     font-family:'__Futura-Bold_5';
     display:flex;
     flex-direction:column;
+    
     background-image:url("/img/masthead.jpg");
-    background-position:center;
-    background-size: contain;   
-    
-    
 
+    background-attachment: fixed;
     justify-content: flex-end;
+ 
     align-items: center;
     color:white;
     position:relative;
-    padding-top:1.5rem !important;
-    height:100%;
+    height:35vh;
+
         h1 {
             font-size:24px;
             padding-bottom:10px;
@@ -175,6 +177,9 @@ p {
     padding-top:10rem !important;
     
 }
+
+
+
 
 
 .YT-first{
@@ -1710,6 +1715,15 @@ li.active a { color: black !important; background-color: whitesmoke !important }
 .top {
     height:55%;
     
+}
+
+.masthead {
+    background-image:url("/img/bgbig.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: flex-end;
+    align-items: center;
 }
     
   }

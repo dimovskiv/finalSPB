@@ -136,8 +136,7 @@ p {
 }
 
 .top {
-  padding-top: 8rem !important;
-  height: 40%;
+  height: 35%;
 }
 
 .masthead {
@@ -150,8 +149,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url("/img/masthead.jpg");
-  background-position: center;
-  background-size: contain;
+  background-attachment: fixed;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -160,8 +158,7 @@ p {
           align-items: center;
   color: white;
   position: relative;
-  padding-top: 1.5rem !important;
-  height: 100%;
+  height: 35vh;
   padding-top: 10rem !important;
 }
 
@@ -2198,6 +2195,18 @@ li.active a {
 @media (min-width: 768px) and (max-width: 992px) {
   .top {
     height: 55%;
+  }
+  .masthead {
+    background-image: url("/img/bgbig.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

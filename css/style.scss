@@ -153,9 +153,10 @@ p {
     
     background-image:url("/img/masthead.jpg");
 
-    background-attachment: fixed;
+
     justify-content: flex-end;
-    background-size:contain;
+    background-position:center;
+
     align-items: center;
     color:white;
     position:relative;
@@ -1032,7 +1033,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         padding:0 !important;
     }
     .masthead {
-        
+        background-attachment: fixed;
         justify-content: flex-end;
         height:100% !important;
         background-image:url("/img/bgBig.jpg");
@@ -1724,6 +1725,18 @@ li.active a { color: black !important; background-color: whitesmoke !important }
     background-attachment: fixed;
     justify-content: flex-end;
     align-items: center;
+    background-attachment: fixed;
+    height:60vh;
 }
     
+  }
+
+  .asdf {
+      display:none;
+      padding:1.5rem;
+      p {
+          font-size:13px;
+          font-family:'Arial';
+      }
+
   }

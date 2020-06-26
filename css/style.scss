@@ -312,6 +312,7 @@ p {
         width:70%;
         justify-content: center;
         align-items: center;
+        padding:0 !important;
         p {
             font-size:14px;
         }
@@ -333,7 +334,7 @@ p {
         display:flex;
         margin-top:10px;
         height:45% !important;
-        width:100%;
+        width:80%;
         flex-direction:column;
         justify-content: center;
         text-align: left;
@@ -342,7 +343,7 @@ p {
             width:100%;
             padding-left:3rem;
             p {
-                margin-top:20px;
+                margin-top:20px;    
             }
         }
         

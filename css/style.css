@@ -384,6 +384,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   align-items: center;
+  padding: 0 !important;
 }
 
 .u-list .content-1st p {
@@ -410,7 +411,7 @@ p {
   display: flex;
   margin-top: 10px;
   height: 45% !important;
-  width: 100%;
+  width: 80%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

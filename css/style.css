@@ -127,10 +127,6 @@ body, html {
   border: 1px solid black;
 }
 
-body {
-  font-family: 'Oswald';
-}
-
 p {
   font-size: 16px;
 }
@@ -148,17 +144,19 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
   background-image: url("/img/masthead.jpg");
+  background-position: top;
+  background-attachment: fixed;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-position: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: white;
   position: relative;
-  height: 40vh;
+  height: 300px;
   padding-top: 10rem !important;
 }
 

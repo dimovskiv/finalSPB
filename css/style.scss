@@ -129,8 +129,7 @@ body, html {
 }
 
 body {
-    font-family:'Oswald';
-    
+
     
 }
 p {
@@ -150,17 +149,20 @@ p {
     font-family:'__Futura-Bold_5';
     display:flex;
     flex-direction:column;
-    
+    width:100%;
     background-image:url("/img/masthead.jpg");
 
-
+    
+    background-position:top;
+    background-attachment: fixed;
     justify-content: flex-end;
-    background-position:center;
+
+    
 
     align-items: center;
     color:white;
     position:relative;
-    height:40vh;
+    height:300px;
 
         h1 {
             font-size:24px;

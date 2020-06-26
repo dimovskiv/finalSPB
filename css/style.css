@@ -151,8 +151,6 @@ p {
           flex-direction: column;
   background-image: url("/img/masthead.jpg");
   background-attachment: fixed;
-  background-position: center;
-  background-size: contain;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;

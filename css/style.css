@@ -145,7 +145,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("masthead.jpg");
+  background-image: url("/img/masthead.jpg");
   background-attachment: fixed;
   background-size: contain;
   -webkit-box-pack: end;
@@ -588,8 +588,8 @@ p {
 .whitesmoke1 .s1 .img-fluid {
   min-height: 108px;
   min-width: 163px;
-  -webkit-box-shadow: 5px 5px 5px 1px rgba(245, 245, 245, 0.5);
-          box-shadow: 5px 5px 5px 1px rgba(245, 245, 245, 0.5);
+  -webkit-box-shadow: 0 0 5px 5px rgba(245, 245, 245, 0.7);
+          box-shadow: 0 0 5px 5px rgba(245, 245, 245, 0.7);
 }
 
 .text {
@@ -631,7 +631,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("masaza.jpg");
+  background-image: url("/img/masaza.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -737,24 +737,26 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .img-container .item {
-  width: 100% !important;
+  width: 100%;
 }
 
 .img-container .w {
@@ -762,10 +764,12 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1233,6 +1237,9 @@ li.active a {
     padding-bottom: 1rem;
     font-family: '__Myriad Pro_5';
   }
+  .ozaD h1 {
+    font-size: 50px;
+  }
   .ozaD .item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1254,6 +1261,9 @@ li.active a {
   .ozaD .sub {
     width: 30%;
     padding: 1rem;
+  }
+  .ozaD .header h2 {
+    font-size: 100px !important;
   }
   .textD {
     display: -webkit-box;
@@ -1326,7 +1336,7 @@ li.active a {
         -ms-flex-pack: end;
             justify-content: flex-end;
     height: 100% !important;
-    background-image: url("bgBig.jpg");
+    background-image: url("/img/bgBig.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 5rem !important;
@@ -1647,7 +1657,7 @@ li.active a {
   }
   .whitesmoke1D .subitem {
     z-index: 200;
-    width: 35%;
+    width: 26%;
   }
   .whitesmoke1D .subitem .img-fluid {
     -webkit-box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.7);
@@ -1693,7 +1703,7 @@ li.active a {
     font-size: 26px;
   }
   .whitesmoke2D .subitem {
-    width: 35%;
+    width: 30%;
   }
   .whitesmoke2D .subitem .img-fluid {
     -webkit-box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.7);
@@ -1723,7 +1733,7 @@ li.active a {
     font-size: 26px;
   }
   .whitesmoke3D .subitem {
-    width: 35%;
+    width: 28%;
   }
   .whitesmoke3D .subitem .img-fluid {
     -webkit-box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.7);
@@ -1864,6 +1874,7 @@ li.active a {
             align-items: center;
     width: 100%;
     margin-top: 70px;
+    margin-bottom: 70px;
   }
   .picturePortD .txtt {
     display: -webkit-box;
@@ -1880,6 +1891,9 @@ li.active a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .picturePortD .txtt p {
+    font-size: 21px !important;
   }
   .picturePortD .first {
     display: -webkit-box;
@@ -1904,7 +1918,7 @@ li.active a {
     width: 50%;
   }
   .picturePortD .first .s2 p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: right;
   }
   .picturePortD .sec {
@@ -2095,5 +2109,11 @@ li.active a {
 
 .whitesmoke1D, .whitesmoke2D, .whitesmoke3D, .desktop1, .productD, .contactD {
   display: none;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .top {
+    height: 55%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

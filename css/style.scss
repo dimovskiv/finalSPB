@@ -142,7 +142,7 @@ p {
     font-family:'__Futura-Bold_5';
     display:flex;
     flex-direction:column;
-    background-image:url("masthead.jpg");
+    background-image:url("/img/masthead.jpg");
     background-attachment: fixed;
     background-size:contain;
 
@@ -169,7 +169,7 @@ p {
 
 
 .YT-first{
-   
+
     padding-bottom:2rem;
     display:flex;
     flex-direction:column;
@@ -452,7 +452,7 @@ p {
         .img-fluid {
             min-height:108px;
             min-width:163px;
-            box-shadow: 5px 5px 5px 1px rgba(245,245,245,0.5);
+            box-shadow: 0 0 5px 5px rgba(245,245,245,0.7);
         }
         display:flex;
         flex-direction:column;
@@ -492,7 +492,7 @@ p {
     display:flex;
     height:auto;
     flex-direction:column;
-    background-image:url("masaza.jpg");
+    background-image:url("/img/masaza.jpg");
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -560,14 +560,17 @@ p {
     display:flex;
     justify-content: center;
     align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
     .item {
-        width:100% !important;
+        width:100%;
         
     }
     .w {
         width:100%;
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
+        flex-wrap:wrap;
         justify-content: center;
         align-items: center;
         .img-fluid {
@@ -576,7 +579,7 @@ p {
     }
     }
 
-    background-image:url("bg.jpg");
+    background-image:url("/img/bg.jpg");
     background-position:center;
     background-size:cover;
     background-attachment: fixed;
@@ -869,6 +872,9 @@ li.active a { color: black !important; background-color: whitesmoke !important }
     display:none !important;
 }
     .ozaD {
+     h1 {
+         font-size:50px;
+     }
         display:flex;
         flex-direction:column;
         width:100%;
@@ -889,6 +895,11 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         .sub {
             width:30%;
             padding:1rem;
+        }
+        .header {
+            h2 {
+                font-size:100px !important;
+            }
         }
     }
 
@@ -960,7 +971,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         
         justify-content: flex-end;
         height:100% !important;
-        background-image:url("bgBig.jpg");
+        background-image:url("/img/bgBig.jpg");
         background-size:cover;
         background-position:center;
         padding-top:5rem !important;
@@ -1241,7 +1252,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
 
         .subitem {
             z-index:200;
-            width:35%;
+            width:26%;
   
             .img-fluid {
                 box-shadow: 0 0 10px 10px rgba(245,245,245,0.7);
@@ -1283,7 +1294,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         }
         .subitem {
      
-            width:35%;
+            width:30%;
             .img-fluid {
                 box-shadow: 0 0 10px 10px rgba(245,245,245,0.7);
             }
@@ -1305,7 +1316,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         }
 
         .subitem {
-            width:35%;
+            width:28%;
 
             .img-fluid {
                 box-shadow: 0 0 10px 10px rgba(245,245,245,0.7);
@@ -1430,12 +1441,16 @@ li.active a { color: black !important; background-color: whitesmoke !important }
         align-items: center;
         width:100%;
         margin-top:70px;
+        margin-bottom:70px;
         .txtt {
             display:flex;
             justify-content: center;
             align-items: center;
             width:80%;
             flex-direction: column;
+            p {
+                font-size:21px !important;
+            }
         }
         .first {
             display:flex;
@@ -1452,7 +1467,7 @@ li.active a { color: black !important; background-color: whitesmoke !important }
                 width:50%;
                 
                 p {
-                    font-size:20px;
+                    font-size:22px;
                     text-align: right;
                 }
             }
@@ -1607,3 +1622,13 @@ li.active a { color: black !important; background-color: whitesmoke !important }
 .whitesmoke1D, .whitesmoke2D, .whitesmoke3D, .desktop1, .productD, .contactD {
     display:none;
 }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  
+.top {
+    height:55%;
+    
+}
+    
+  }

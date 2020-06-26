@@ -47,9 +47,9 @@
               ОТЗЫВЫ</a></li>
             <li><a href="#section7" class="link">АДРЕС-ТЕЛЕФОН</a></li>
             <li><a href="#section8" class="link">ЦЕНА</a></li>
-            <li><a href="https://vk.com/spbpravilo"> <i class="fab fa-vk fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/spbpravilo/"> <i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100015592241601"> <i class="fab fa-facebook fa-2x "></i></a></li>
+            <li><a href="https://vk.com/spbpravilo"  target="_blank"> <i class="fab fa-vk fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/spbpravilo/"  target="_blank"> <i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100015592241601"  target="_blank"> <i class="fab fa-facebook fa-2x "></i></a></li>
           </ul>
         </div>
       </div>
@@ -82,13 +82,13 @@
             <div class="flex">
 
               <div class="fi">
-                <li><a href="https://vk.com/spbpravilo"> <i class="fab fa-2x fa-vk "></i></a></li>
+                <li><a href="https://vk.com/spbpravilo"  target="_blank"> <i class="fab fa-2x fa-vk "></i></a></li>
               </div>
               <div class="fi">
-                <li><a href="https://www.instagram.com/spbpravilo/"> <i class="fab fa-2x fa-instagram "></i></a></li>
+                <li><a href="https://www.instagram.com/spbpravilo/"  target="_blank"> <i class="fab fa-2x fa-instagram "></i></a></li>
               </div>
               <div class="fi">
-                <li><a href="https://www.facebook.com/profile.php?id=100015592241601"> <i class="fab fa-2x fa-facebook "></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100015592241601"  target="_blank"> <i class="fab fa-2x fa-facebook "></i></a></li>
               </div>
            
          
@@ -106,7 +106,7 @@
     <div class="masthead" id="section1"  >
       
       <div class="item m">
-          <h1 class="text-uppercase">тенажер правило</h1>
+          <h1 class="text-uppercase">тРенажер правило</h1>
           
       </div>
       <div class="i1" >
@@ -183,7 +183,7 @@
       <img src="img/manBig.jpg" class="img-fluid">
     </div>
     <div class="item90 ml-5">
-      <div class="header"><p class="pol text-uppercase" style="font-size:48px !important;">польза тренажера</p> </div>
+      <div class="header"><p class="pol text-uppercase" >польза тренажера</p> </div>
       <div class="cont">
         <div class="item" data-aos="fade-down">
           <p class="text-uppercase" style="font-size:60px;">1</p>
@@ -228,7 +228,7 @@
 
   <div class="u-list" id="sp" >
     <div class="header mt-4">
-      <h1>польза тренажера</h1>
+      <h1 class="text-uppercase">польза тренажера</h1>
     </div>
     <div class="content-1st">
       <div class="item">
@@ -312,7 +312,7 @@
 
   <div class="whitesmoke1" id="section3" >
     <div class="header mb-5">
-      <h3 class="text-black mt-3">тренировочная программа</h3>
+      <h3 class="text-black mt-3 text-uppercase">тренировочная программа</h3>
     </div>
     <div class="item alt1">
       <div class="subitem s1 mt-4">
@@ -514,12 +514,12 @@
     </div>
   </div>
 
-  <div class="warning-1" id="zadnji">
+  <div class="warning-1" id="warning-1">
     <div class="item">
-      <p class="mt-3">полный комментарий:</p>
+      <p class="mt-3 text-uppercase" id="tog">полный комментарий:</p>
     </div>
     <div class="itemm">
-      <img src="img/mouse.jpg" class="img-fluid ml-5">
+      <img src="img/mouse.jpg" class="img-fluid ml-5" id="hid">
     </div>
   </div>
   <div class="asdf" id="zadnjizadnji">
@@ -585,7 +585,7 @@
 
   <div class="YT-first " id="section5">
     <div class="header d mb-4">
-      <h2 style="font-size:18px;">ознакомительные видео</h2>
+      <h2 style="font-size:18px; " class="text-uppercase">ознакомительные видео</h2>
     </div>
     <div class="YT-cont">
       <div class="item">
@@ -923,13 +923,13 @@
     </div>
     <div class="sub">
     
-      <p class="mt-3" style="font-size:30px !important;">
+      <p class="mt-3" style="font-size:30px;">
         ТЕЛЕФОН ДЛЯ ЗАПИСИ <span style="font-size:48px;">8-921-418-98-18 </span></p>  
     </div>
   </div>
 
   <div class="footer">
-    <a href="https://vk.com/spbpravilo">vk.com/spbpravilo</a>
+    <a href="https://vk.com/spbpravilo"  target="_blank">vk.com/spbpravilo</a>
   </div>
 <script>
   const simpleParallax = require('simple-parallax-js');
@@ -964,6 +964,15 @@ for (var i = 0; i < youtube.length; i++) {
 
 } )();
 </script>
+
+<script>
+  $( "#warning-1" ).click(function() {
+    $("#warning-1" ).toggleClass( "highlight" );
+    $("#tog" ).toggleClass( "highlight1" );
+    $("#hid" ).toggleClass( "none" );
+  });
+  </script>
+
 <script>
   $( "#all" ).click(function() {
   $( "#pD" ).slideToggle( "slow", function() {
@@ -972,7 +981,7 @@ for (var i = 0; i < youtube.length; i++) {
 });
 </script>
 <script>
-  $( "#zadnji" ).click(function() {
+  $( "#warning-1" ).click(function() {
   $( "#zadnjizadnji" ).slideToggle( "slow", function() {
     // Animation complete.
   });

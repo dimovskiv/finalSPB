@@ -148,9 +148,9 @@ p {
     display:flex;
     flex-direction:column;
     background-image:url("/img/masthead.jpg");
-    background-attachment: fixed;
-
-
+    background-position:center;
+    background-size: contain;   
+    
     
 
     justify-content: flex-end;

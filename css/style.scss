@@ -907,7 +907,7 @@ p {
 }
 
 li.active a { color: black !important; background-color: whitesmoke !important }
-@media (min-width: 1281px) {
+@media only screen and (min-width: 992px) {
     li.active a { color: #a5bf5d !important; background-color: whitesmoke !important }
     .ND {
 
@@ -1757,3 +1757,134 @@ li.active a { color: black !important; background-color: whitesmoke !important }
 
   }
 
+
+  @media screen and (min-width: 1280px) and (min-height: 800px) {
+ .YT-first1 {
+     h1 {
+         font-size:25px !important;
+     }
+ }
+.YT-first{
+    h1 {
+        font-size:25px !important;
+    }
+
+    padding-bottom:2rem;
+    display:flex;
+    flex-direction:column;
+    font-family:'__Futura-Bold_5';
+
+    .header {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        font-family:'__Futura-Bold_5';
+    }
+    .YT-cont {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        width:100%;
+        padding:0 !important;
+        .item {
+            padding:10px !important;
+            height:50%;
+            width:470px !important;
+            
+        }
+    }
+   }
+
+   .desktop1 {
+       .item90 {
+           .item {
+               width:150px;
+           }
+
+           .header {
+               p {
+                   font-size:25px !important;
+               }
+           }
+       }
+       p {
+        font-size:15px !important;
+       }
+   }
+
+   .whitesmoke {
+       .header {
+           h3 {
+               font-size:25px;
+           }
+       }
+   }
+
+   .whitesmoke1D {
+      .subitem {
+          width:40%;
+      }
+   }
+
+   .whitesmoke2D {
+    .subitem {
+        width:40%;
+    }
+ }
+
+ .whitesmoke3D {
+    .subitem {
+        width:40%;
+    }
+ }
+
+ .three {
+     .item {
+         h3 {
+             font-size:25px;
+         }
+     }
+ }
+
+ .text {
+     h3 {
+         font-size:25px;
+     }
+ }
+
+ .textD {
+     h1 {
+         font-size:25px;
+     }
+ }
+
+ .posebanDiv {
+     .rnd {
+         p {
+            font-size:20px !important;
+         }
+
+     }
+ }
+
+ .contactD {
+     p {
+         font-size:25px !important;
+     }
+ }
+
+ .ozaD {
+     .header {
+         h1 {
+             font-size:25px;
+         }
+     }
+ }
+
+ .dopunaD {
+     h1 {
+         font-size:20px !important;
+     }
+ }
+}

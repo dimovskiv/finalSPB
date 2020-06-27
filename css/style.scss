@@ -1620,6 +1620,7 @@ nav {
             width:70%;
         }
         
+
         .img-fluid {
             height:250px;
             width:200px;
@@ -2449,15 +2450,15 @@ p {
                 
            
             
-              .asdf {
-                  display:none;
-                  padding:1.5rem;
-                  p {
-                      font-size:13px;
-                      font-family:'Arial';
-                  }
-            
+            .asdf {
+                display:none;
+                padding:1.5rem;
+                p {
+                    font-size:13px;
+                    font-family:'Arial';
                 }
+          
+              }
             
         }            
         
@@ -2473,3 +2474,13 @@ p {
       }
       }
       
+
+      .asdf {
+        display:none;
+        padding:2rem;
+        p {
+            font-size:13px;
+            font-family:'Arial';
+        }
+  
+      }
